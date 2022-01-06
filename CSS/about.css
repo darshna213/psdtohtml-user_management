@@ -1,0 +1,170 @@
+*{
+    font-family: 'roboto' sans-serif;
+}
+
+/*navbar*/
+nav{
+    background-color: #525252;
+  }
+  #navbarCollapse {
+      justify-content: right;
+    }
+    .navbar-brand img {
+      width: 73px;
+      height: 54px;
+    }
+    .menu1{
+      background-color: #29626D;
+      border: 1px solid white;
+      border-radius: 25px;
+    }
+    .nvbarbtn {
+      border-radius: 25px;
+      border: 1px solid white;
+      color: white;
+      font-size: 17px;
+      padding: 5px 20px;
+      margin: 0px 5px;
+      background: transparent;
+    }
+    .menu {
+      text-decoration: none;
+      color: white;
+      font-size: 17px;
+      padding: 10px 15px !important;
+      margin: 0px 10px;
+    }
+    
+    #navbarCollapse button{
+        font-size: 16px;
+        padding: 9px 22px 12px 22px;
+        background-color: #29626D;
+    }
+    .menu:hover {
+      border-radius: 25px;
+      border: 1px solid white;
+      color: white;
+      background-color: #29626D;
+    }
+    .ddmenu{
+      color: white;
+      margin-right: 15px;
+      border:1px solid white;
+      border-radius: 20px;
+    }
+ .bg{
+   width: 100%;
+ } 
+
+
+    /* middle section*/
+   .about h1{
+    font-size: 36px;
+    color: #4f4f4f;
+    font-weight: bold;
+   }
+    .about-heading2{
+      margin-top: 30px;
+    }
+      .h-hr{
+          width: 62px;
+      }
+      .star{
+          position: relative;
+      }
+      .star:before{
+        content: '';
+        width: 62px;
+        height: 1px;
+        background: #212529;
+        position: absolute;
+        left: 44.4%;
+        top: 47%;
+      }
+      .star:after{
+        content: '';
+        width: 62px;
+        height: 1px;
+        background: #212529;
+        position: absolute;
+        left: 51.5%;
+        top: 47%;
+      }
+     
+.about-detail{
+  margin-top:38px;
+}
+
+.about-text{
+  font-size: 16px;
+  color:#646464;
+
+}
+
+
+
+
+/*cookies*/
+.newsletter{
+  margin-top:60px;
+  font-size:18px;
+}
+.customer-email{
+  margin-top:20px;
+  padding-bottom: 55px;
+}
+#email{
+  width:233px;
+  border-radius: 50px;
+  background-color: #f4f5f8;
+  color:black;
+  border-color:black;
+  display: inline-block;
+}
+
+.submit{
+  background-color: #ff7b6d;
+  color:white;
+  border-radius: 50px;
+  margin-left: 10px;
+}
+
+
+  /*footer*/
+  footer{
+    background-color: #111111;
+    width: 100%;
+    color: white;
+    height: 195px;
+  }
+  footer .container a {
+    text-decoration: none;
+    color: #F1F1F1;
+    font-size: 14px;
+  }
+  .fmenu{
+    padding-top: 20px;
+    max-width: 1350px;
+  }
+  .fimg1 {
+    width: 9px;
+    height: 18px;
+    margin-right: 20px;
+  }
+  .fimg2 {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .right{
+    color: #737381;
+    font-size: 14px;
+    margin-top: 15px;
+  }
+
+@media screen and (max-width:330px){
+  .submit{
+    margin-top:20px;
+  
+  }
+}
